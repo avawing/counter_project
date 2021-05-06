@@ -19,19 +19,19 @@ body {
   padding: 1rem;
 }
 #counter {
-  color: var(--mainGreen);
   font-size: 10rem;
-  color: var(--mainBlack);
 }
 .prevBtn,
 .nextBtn {
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.9);
-  background: var(--mainBlue);
-  color: var(--mainWhite);
+  background: purple;
+  color: salmon;
 }
 .prevBtn:hover {
-  background: var(--lightBlue);
+  background: salmon;
+  color: purple;
 }
 .nextBtn:hover {
-  background: var(--lightBlue);
+  background: salmon;
+  color: purple;
 }
