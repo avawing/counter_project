@@ -1,0 +1,37 @@
+body {
+  background: linear-gradient(purple, salmon, cadetblue);
+  color: var(--mainWhite);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  border: 0.1rem;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.9);
+  border-radius: 0.4rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 80vw;
+  padding: 1rem;
+}
+#counter {
+  color: var(--mainGreen);
+  font-size: 10rem;
+  color: var(--mainBlack);
+}
+.prevBtn,
+.nextBtn {
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.9);
+  background: var(--mainBlue);
+  color: var(--mainWhite);
+}
+.prevBtn:hover {
+  background: var(--lightBlue);
+}
+.nextBtn:hover {
+  background: var(--lightBlue);
+}
